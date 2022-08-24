@@ -1,0 +1,14 @@
+<p>test works!</p>
+<div>
+    Welcome to Kanerika
+</div>
+  <h1>{{name}}</h1>
+  <input [id]="myID" type="text" value="Ramesh">
+  <input id="{{myID}}" type="text" value="Ramesh">
+  <input [disabled]="isdisabled" value="RAM">
+  <h2 class="text-success">KANERIKA</h2>
+  <h2 [class]="successClass">Kanerika</h2>
+  <h2 class="text-success" [class]="successClass">Kanerika</h2>
+  <h2 *ngIf="hasError">KANERIKA</h2>
+  <h2 [class.text-danger]="hasError">RAMESH</h2>
+  <h2 *ngclass="messageclasses">RaMeSh</h2>
